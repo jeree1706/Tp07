@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: rgb(215, 4, 4);
+        }
+
+        .container {
+
+            border: solid 2px rgb(186, 183, 183);
+            width: 240px;
+            margin-left: 800px;
+            margin-top: 50px;
+            position: relative;
+        }
+
+        .img {
+
+            display: flex;
+            justify-content: center;
+            height: 240px;
+
+        }
+
+        .box1 {
+
+            border-top: solid 2px rgb(186, 183, 183);
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .box2 {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        .tresc {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-left: 10px;
+
+        }
+
+        .box3 {
+            background-color: rgb(32, 140, 255);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: white;
+            border-radius: 3px;
+            height: 35px;
+            font-size: 1.3em;
+        }
+
+        .box4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box5 {
+            display: flex;
+            justify-content: start;
+            margin-left: 10px;
+            font-size: 1.5em;
+            font-weight: 900;
+        }
+
+        .box6 {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .box6 button {
+            background-color: rgb(243, 180, 8);
+            border-radius: 8px;
+            border-color: white;
+            width: 180px;
+            height: 40px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+
+        }
+
+        .absolute {
+            position: absolute;
+            bottom: 345px;
+            left: 25px;
+            background-color: rgb(0, 191, 255);
+            border-radius: 5px;
+            height: 45px;
+            color: white;
+        }
+
+        .oferta {
+            display: flex;
+            gap: 2px;
+
+        }
+
+        .dieciocho {
+            font-size: 1.6em;
+            font-weight: 900;
+        }
+
+        .hasta {
+            font-size: 0.5em;
+            margin-top: 5px;
+            font-weight: 500;
+        }
+
+        .sin {
+            font-size: 0.8em;
+            font-weight: 700;
+        }
+
+        .corazon {
+            position: absolute;
+            top: 15px;
+            right: 10px;
+
+        }
+
+        .vista {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20px;
+            opacity: 0;
+        }
+        .vista button{
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-bottom: 30px;
+            color: rgb(0, 195, 255);
+            background-color: rgb(232, 230, 230);
+            border: solid 1px rgb(232, 230, 230);
+        }
+
+        .container:hover .vista {
+         opacity: 1;
+
+        }
+
+        /* font-weight 100-900*/
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div><img
+                src="https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/70762c9e-9f1a-4061-9113-144b83dd8370___389e812d088de026179c879e8ddb85da.svg"
+                alt=""></div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="img">
+                <img src="./assets/easy.png" alt="" width="100%">
+            </div>
+            <div class="vista">
+                <button> <img src="./assets/ojo (1).png" alt="" height="20px"> <span>Vista rápida</span>
+                </button>
+            </div>
+            <div class="box1">
+                <p><b>Outzen</b></p>
+            </div>
+            <div class="box2" style="gap: 5px;">
+                <p>Set Comedor Caño Sacramento Gris 6</p>
+            </div>
+            <div class="tresc" style="gap: 10px;">
+                <div class="box3">
+                    <p><b>-15%</b></p>
+                </div>
+                <div class="box4">
+                    <p><s>$749.990</s></p>
+                </div>
+            </div>
+            <div class="box5">
+                <p><b>$637.491,50</b></p>
+            </div>
+            <div class="box6">
+                <button><a href="" style="text-decoration: none; color: black;">Agregar al carrito</a></button>
+            </div>
+            <div class="absolute">
+                <div class="hasta">
+                    HASTA
+                </div>
+                <div class="oferta">
+
+                    <div class="dieciocho"> 18</div>
+                    <div class="sin">SIN <br>
+                        INTERÉS</div>
+                </div>
+            </div>
+            <div class="corazon">
+                <a href=""><img src="./assets/me-gusta.png" alt="" height="20px"></a>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
